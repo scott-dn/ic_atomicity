@@ -15,7 +15,7 @@ fn query() -> u64 {
 
 #[update]
 #[candid_method(update)]
-async fn update() {
+fn update() {
     COUNTER.with(|c| {
         *c.borrow_mut() += 1;
     });
