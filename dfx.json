@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "dfx": "0.9.2",
+  "canisters": {
+    "block_on": {
+      "candid": "block_on.did",
+      "type": "rust",
+      "package": "block_on"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}

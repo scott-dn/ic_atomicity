@@ -1,0 +1,1 @@
+service : { "query" : () -> (nat64) query; update : () -> () }
